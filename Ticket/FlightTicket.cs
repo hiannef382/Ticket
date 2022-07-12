@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ticket
 {
-    public abstract class FlightTicket
+    public class FlightTicket
     {
         public string FullName;
         public string Gender;
@@ -18,18 +18,6 @@ namespace Ticket
             Age = age;
             FlightDate = flightDate;
             Destination = destination;
-        }
-        public string DisplayTicket()
-        {
-            string result = "==================================\n" +
-            $"FULL NAME: {FullName} \n" +
-            $"GENDER: {Gender} \n" +
-            $"AGE: {Age} \n" +
-            $"FLIGHT DATE: {FlightDate} \n" +
-            $"DESTINATION: {Destination}\n" +
-            "==================================\n";
-            return result;
-
         }
     }
 }

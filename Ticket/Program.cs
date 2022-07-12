@@ -21,7 +21,8 @@ namespace Ticket
                         Screen.EnterPassengerAge(),
                         Screen.EnterFlightDate(),
                         Screen.EnterDestination());
-                        Console.WriteLine($"Price of Ticket is {vip.Price()}");
+                        Console.WriteLine($"Information of Ticket: \n {vip.ToString()}");
+                        
                         Console.ReadLine();
 
                         break;
@@ -31,7 +32,7 @@ namespace Ticket
                         Screen.EnterPassengerAge(),
                         Screen.EnterFlightDate(),
                         Screen.EnterDestination());
-                        Console.WriteLine($"Price of Ticket is {normal.Price()}");
+                        Console.WriteLine($"Information of Ticket:\n {normal.ToString()} ");
                         Console.ReadLine();
 
                         break;
