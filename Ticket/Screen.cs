@@ -10,25 +10,13 @@ namespace Ticket
         public static void DisplayMenuOption()
         {
             Console.Clear();
-            Console.WriteLine("===================================");
-            Console.WriteLine("1: Add New Ticket");
-            Console.WriteLine("2: Update Ticket's Information");
-            Console.WriteLine("3: Remove A Ticket By Name");
-            Console.WriteLine("4: Search Ticket");
-            Console.WriteLine("5: Print All Ticket");
-            Console.WriteLine("6: Exit Application");
-            Console.WriteLine("===================================");
+            Console.WriteLine("==============Ticket==================");
+            Console.WriteLine("1: VIP Ticket");
+            Console.WriteLine("2: Normal Ticket");
+            Console.WriteLine("3: Exit");
+
         }
-        //Menu of search
-        public static void DisplaySearchMenu()
-        {
-            Console.Clear();
-            Console.WriteLine("===================================");
-            Console.WriteLine("1: Search by Passenger's Name");
-            Console.WriteLine("2: Search by Flight Date");
-            Console.WriteLine("3: Search by Destination");
-            Console.WriteLine("===================================");
-        }
+        
         public static string EnterPassengerName()
         {
             Console.Write("Enter Passenger's Full Name: ");

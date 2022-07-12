@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ticket
 {
-    public class FlightTicket
+    public abstract class FlightTicket
     {
         public string FullName;
         public string Gender;
